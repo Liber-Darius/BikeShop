@@ -34,5 +34,5 @@ void ElectricBike::setSpeed(int speed)
 
 void ElectricBike::displayInfo()
 {
-	std::cout << "Electric Bike: " << this->brand << " of price: " << this->price << " with the wheelsize of: " << this->wheelsize <<", autonomy of "<< this->autonomy << " kilometres" << ", maxixum speed of "<< this << " and having the id: " << this->id;
+	std::cout << "Electric Bike: " << this->brand << " of price: " << this->price << " with the wheelsize of: " << this->wheelsize <<", autonomy of "<< this->autonomy << " kilometres" << ", maxixum speed of "<< this->speed << " km/h and having the id: " << this->id;
 }

@@ -18,6 +18,11 @@ Bike::Bike()
 
 }
 
+Bike::~Bike()
+{
+
+}
+
 int Bike::getPrice() const
 {
     return this->price;

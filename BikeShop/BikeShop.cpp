@@ -3,11 +3,16 @@
 
 #include <iostream>
 #include <string>
+#include "Bike.h"
+#include "ElectricBike.h"
 using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Bike vasile(24, 600, "pegas", 677);
+    vasile.displayInfo(); cout << endl;
+    ElectricBike Ion(27, 1200, "BMX",7323829, 45, 30);
+    Ion.displayInfo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
