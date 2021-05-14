@@ -5,15 +5,35 @@
 #include <string>
 #include "Bike.h"
 #include "ElectricBike.h"
+#include "UI.h"
+#include "Controller.h"
+#include "Repo.h"
 using namespace std;
 
 int main()
 {
+    /*
     Bike vasile(24, 600, "pegas", 677);
     vasile.displayInfo(); cout << endl;
     ElectricBike Ion(27, 1200, "BMX",7323829, 45, 30);
     Ion.displayInfo();
+    */
+    UI myUI;
+    myUI.run();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

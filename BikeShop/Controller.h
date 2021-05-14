@@ -11,9 +11,9 @@ public:
 	~Controller();
 	void add(Bike b);
 	void remove(int id);
-	Repo cheaperThan(int price);
-	Repo wheelsizeGreaterThan(int wheelsize);
-	Repo justPrint();
+	void cheaperThan(int price);
+	void wheelsizeGreaterThan(int wheelsize);
+	void justPrint();
 
 
 };

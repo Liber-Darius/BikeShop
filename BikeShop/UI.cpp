@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+
+
 Bike UI::readBike()
 {
 	char option;
@@ -81,6 +83,8 @@ void UI::run()
 	int option = -1;
 	while (option != 0) {
 		printMenu();
+		cout << "enter option: "; cin >> option;
+		cout << endl;
 		if (option == 0)break;
 		else if (option == 1) {
 			this->contrl.justPrint();

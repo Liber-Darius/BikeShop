@@ -3,9 +3,9 @@
 #include <vector>
 class Repo
 {
-protected:
-	vector <Bike> inventory;
 public:
+	vector <Bike> inventory;
+	Repo();
 	void add(Bike b);
 	void _load();
 	void _save();

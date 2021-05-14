@@ -12,8 +12,8 @@ protected:
 public:
 	Bike(int wheelsize, int price, string brand, int id);
 	Bike();
-	Bike(const Bike& other);
-	Bike& operator=(const Bike& other); 
+	//Bike(const Bike& other);
+	static int getCreatedObjectsNum();
 	virtual ~Bike(); 
 	int getPrice() const;
 	void setPrice(int price);
