@@ -25,10 +25,5 @@ public:
 	int getID();
 	virtual void displayInfo();
 
-	// static function
-	static int getCreatedObjectsNum();
-
-	
-
 };
 

@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Bike.cpp" />
     <ClCompile Include="BikeShop.cpp" />
+    <ClCompile Include="Controller.cpp" />
     <ClCompile Include="ElectricBike.cpp" />
     <ClCompile Include="MTB.cpp" />
     <ClCompile Include="Repo.cpp" />
@@ -148,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bike.h" />
+    <ClInclude Include="Controller.h" />
     <ClInclude Include="ElectricBike.h" />
     <ClInclude Include="MTB.h" />
     <ClInclude Include="Repo.h" />

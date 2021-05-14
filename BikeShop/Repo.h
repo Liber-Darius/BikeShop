@@ -13,6 +13,7 @@ public:
 	void cheaperThan(int price);
 	void wheelsizeGreaterThan(int wheelsize);
 	void justPrint();
+	bool idAlreadyExists(int id);
 
 };
 

@@ -47,3 +47,10 @@ void Repo::justPrint()
 		cout << endl;
 	}
 }
+
+bool Repo::idAlreadyExists(int id)
+{
+	for (Bike i : this->inventory)
+		if (i.getID() == id)return true;
+	return false;
+}
