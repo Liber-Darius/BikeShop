@@ -39,3 +39,11 @@ void Repo::wheelsizeGreaterThan(int wheelsize)
 		cout << endl;
 	}
 }
+
+void Repo::justPrint()
+{
+	for (Bike i : this->inventory) {
+		i.displayInfo();
+		cout << endl;
+	}
+}

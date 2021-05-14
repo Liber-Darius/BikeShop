@@ -144,12 +144,14 @@
     <ClCompile Include="ElectricBike.cpp" />
     <ClCompile Include="MTB.cpp" />
     <ClCompile Include="Repo.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bike.h" />
     <ClInclude Include="ElectricBike.h" />
     <ClInclude Include="MTB.h" />
     <ClInclude Include="Repo.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,6 +12,7 @@ public:
 	void remove(int id);
 	void cheaperThan(int price);
 	void wheelsizeGreaterThan(int wheelsize);
+	void justPrint();
 
 };
 
